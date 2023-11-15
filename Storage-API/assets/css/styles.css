@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(170, 16, 16);
+    padding: 20px 0;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav i{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+
+nav i span{
+    position: absolute;
+    background-color: #fff;
+    color: red;
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    padding: 4px 6px;
+    font-size: 12px;
+}
+
+.card img{
+    height: 300px;
+    object-fit: contain;
+    margin: 15px;
+}
+
+
+.toast-container {
+    bottom: 20px;
+    right: 20px;
+}
+
+table img{
+    width: 70px;
+}
+
+table tr{
+    vertical-align: middle;
+    text-align: center;
+}
+
+table input{
+    width: 20%;
+    background-color: transparent;
+    border: 1px solid #838181;
+    color: #fff;
+    text-align: center;
+    outline: none;
+}
+
+.all{
+    width: 80%;
+    margin: 3rem auto;
+        
+}
+
+.price{
+    display: none;
+}
+
+@media (max-width:576px) {
+    #count{
+        right: -10px !important;
+    }
+    table input{
+        width: 70%;
+    }
+    .all{
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+}
